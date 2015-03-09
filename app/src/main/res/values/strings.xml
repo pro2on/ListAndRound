@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Yellow Car Couter</string>
+    <string name="title_activity_car">Yellow Car Detail</string>
+    <string name="title_activity_list">Checked Cars</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="car_title_hint">Enter a title for the car.</string>
+    <string name="car_title_label">TITLE</string>
+    <string name="car_details_label">DETAILS</string>
+    <string name="default_car_image_label">default_car_image</string>
+    <string name="car_list_item_dummy_title">Car#12</string>
+    <string name="car_list_item_dummy_date">Monday, Mar 24 2015 12:23:23</string>
+    <string name="car_fragment_liked_checkBox_lable">Liked?</string>
+    <string name="date_picker_title">Date when I saw:</string>
+    <string name="time_picker_title">Time when I saw:</string>
+    <string name="fragment_car_list_empty">Please add events</string>
+    <string name="delete_car">Delete car</string>
+</resources>

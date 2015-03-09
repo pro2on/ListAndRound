@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_activated">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/car_list_item_image"
+        android:padding="4dp"
+        android:src="@drawable/bus"
+        android:contentDescription="@string/default_car_image_label"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/car_list_item_dummy_date"
+        android:id="@+id/car_list_item_date"
+        android:layout_toRightOf="@+id/car_list_item_image"
+        android:layout_below="@+id/car_list_item_title"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/car_list_item_dummy_title"
+        android:id="@+id/car_list_item_title"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/car_list_item_image"
+        android:padding="4dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_item_car_likedCheckBox"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"
+        android:focusable="false"
+        android:enabled="false" />
+</RelativeLayout>
